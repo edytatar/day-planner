@@ -10,7 +10,6 @@ JQuery
 
 
 BOOTSTRAP PLANNER
-    - Main - container 
         - Header - jumbotron
             - h1 
                 - "Daily Schedule"
@@ -19,11 +18,11 @@ BOOTSTRAP PLANNER
             - <time>
                 - Current day
 
-        - Section - time-block
+        - Main - container
             - <section class="row justify-content-center">
-                - <time class="hour col-12 col-lg-4">
-                    - 9am
-                - <input type="text" class=" description col-12 col-sm-6 col-lg-4"> 
+                - <time class="time-block col-12 col-lg-4">
+                    - <p class="hour"> 9am </p>
+                - <input type="text" class="textarea col-12 col-sm-6 col-lg-4"> 
                     - Leave blank
                 - <button class="saveBtn col-12 col-sm-6 col-lg-4">
 
